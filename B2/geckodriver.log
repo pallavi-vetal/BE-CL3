@@ -1,0 +1,73 @@
+1523705106212	geckodriver	INFO	geckodriver 0.20.1
+1523705106272	geckodriver	INFO	Listening on 127.0.0.1:32807
+1523705107194	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.98tqH8YMNomq"
+1523705111812	Marionette	INFO	Enabled via --marionette
+
+(firefox:5908): GLib-GObject-WARNING **: /build/glib2.0-prJhLS/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'load_complete' is invalid for instance '0x7fe9c59f0ce0' of type 'MaiAtkType139'
+1523705123746	Marionette	INFO	Listening on port 44221
+1523705124750	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523705136025	geckodriver	INFO	geckodriver 0.20.1
+1523705136034	geckodriver	INFO	Listening on 127.0.0.1:56848
+1523705137117	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wUxPd1a9usSt"
+1523705139554	Marionette	INFO	Enabled via --marionette
+1523705143442	Marionette	INFO	Listening on port 43026
+1523705143554	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523705150131	geckodriver	INFO	geckodriver 0.20.1
+1523705150143	geckodriver	INFO	Listening on 127.0.0.1:35643
+1523705151145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bK1pR14ZM9Vq"
+1523705152454	Marionette	INFO	Enabled via --marionette
+1523705155992	Marionette	INFO	Listening on port 43264
+1523705156080	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:6230): GLib-GObject-WARNING **: /build/glib2.0-prJhLS/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f1ba91ab470' of type 'MaiAtkType919'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523705270071	geckodriver	INFO	geckodriver 0.20.1
+1523705270080	geckodriver	INFO	Listening on 127.0.0.1:42137
+1523705271105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.AK8A7NT0FBzU"
+1523705272380	Marionette	INFO	Enabled via --marionette
+1523705276078	Marionette	INFO	Listening on port 44271
+1523705276142	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523705282983	geckodriver	INFO	geckodriver 0.20.1
+1523705282990	geckodriver	INFO	Listening on 127.0.0.1:38665
+1523705283996	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.t2ylJ4SuvWfK"
+1523705285232	Marionette	INFO	Enabled via --marionette
+1523705288706	Marionette	INFO	Listening on port 45733
+1523705288744	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523705295255	geckodriver	INFO	geckodriver 0.20.1
+1523705295262	geckodriver	INFO	Listening on 127.0.0.1:37880
+1523705296269	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.koSIrKZQjRkY"
+1523705297590	Marionette	INFO	Enabled via --marionette
+1523705301156	Marionette	INFO	Listening on port 42033
+1523705301198	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:6714): GLib-GObject-WARNING **: /build/glib2.0-prJhLS/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7febd19475b0' of type 'MaiAtkType919'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523705327294	geckodriver	INFO	geckodriver 0.20.1
+1523705327307	geckodriver	INFO	Listening on 127.0.0.1:47898
+1523705328308	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.f2avI4nwjkC0"
+1523705329570	Marionette	INFO	Enabled via --marionette
+1523705333010	Marionette	INFO	Listening on port 33135
+1523705333050	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523705339753	geckodriver	INFO	geckodriver 0.20.1
+1523705339760	geckodriver	INFO	Listening on 127.0.0.1:58056
+1523705340766	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dn6ONellFcGr"
+1523705342056	Marionette	INFO	Enabled via --marionette
+1523705345560	Marionette	INFO	Listening on port 36054
+1523705345604	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523705352237	geckodriver	INFO	geckodriver 0.20.1
+1523705352246	geckodriver	INFO	Listening on 127.0.0.1:57429
+1523705353250	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KP8n1v6pJuD7"
+1523705354498	Marionette	INFO	Enabled via --marionette
+1523705358056	Marionette	INFO	Listening on port 37135
+1523705358092	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:7172): GLib-GObject-WARNING **: /build/glib2.0-prJhLS/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f63667579c0' of type 'MaiAtkType919'
+
+(firefox:7172): GLib-GObject-WARNING **: /build/glib2.0-prJhLS/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'load_complete' is invalid for instance '0x7f63613fdfb0' of type 'MaiAtkType139'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
