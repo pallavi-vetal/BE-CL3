@@ -1,0 +1,20 @@
+<html><head><title>C1</title></head>
+	<form action="/add" method = "post">
+		<table border = "1">
+			<thead>
+			</thead>
+			<tr>
+			<td>Name</td>
+			<td><input tyep ="text" name = "name"/></td>
+			</tr>
+			<tr>
+			<td>Department</td>
+			<td><input tyep ="text" name = "dept"/></td>
+			</tr>
+			<tr>
+			<td>Salary</td>
+			<td><input type ="number" name = "sal"/></td>
+			</tr>
+		</table>
+	</form>
+</html>

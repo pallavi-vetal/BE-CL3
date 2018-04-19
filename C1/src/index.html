@@ -1,0 +1,41 @@
+<html><head><title>C1</title></head>
+	<form action="/add" method = "post">
+		<table border = "1">
+			<thead>
+			</thead>
+			<tr>
+			<td>Name</td>
+			<td><input type ="text" name = "name"/></td>
+			</tr>
+			<tr>
+			<td>Department</td>
+			<td><input tyep ="text" name = "dept"/></td>
+			</tr>
+			<tr>
+			<td>Salary</td>
+			<td><input type ="number" name = "sal"/></td>
+			</tr>
+			<tr>
+			
+			<td><input type ="submit" name = "Submit"/></td>
+			</tr>
+		</table>
+	</form>
+	<table>
+		<thead>
+			<th>Name</th>
+			<th>Department</th>
+			<th>Salary</th>
+		</thead>
+		<tbody>
+			{% for i in employees%}
+				<tr>
+					<td>{{i.name}}</td>
+					<td>{{i.dept}}</td>
+					<td>{{i.sal}}</td>
+					
+				</tr>
+			{% endfor %}	
+		</tbody>
+	</table>
+</html>

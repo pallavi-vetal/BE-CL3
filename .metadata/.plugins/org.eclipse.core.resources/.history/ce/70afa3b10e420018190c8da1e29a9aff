@@ -1,0 +1,40 @@
+import webapp2
+import os
+from google.appengine.ext.webapp import template
+from google.appengine.ext import db
+class Emp(db.Model):
+    print 'Emp'
+    name = db.StringProperty()
+    dept = db.StringProperty
+    sal = db.IntegerProperty()
+    
+
+class AddEmp(webapp2.RequestHandler):
+    def post(self):
+        print 'post'
+        emp = Emp()
+        name = self.request.get('name')
+        dept = self.request.get('dept')
+        sal = int(self.request.get('salary'))
+        emp.put()
+        self.redirect('/')
+        
+
+class MainPage(webapp2.RequestHandler):
+    
+    
+    def get(self):
+        emp_q = Emp.all()
+        employees = emp_q.fetch(10, 0)
+        template_values = {'employees':employees}
+        path = os.path.join(os.path.dirname(__file__),'index.html')
+        self.response.out.write(template.render(path, template_values))
+
+
+app = webapp2.WSGIApplication([('/', MainPage),('/add', AddEmp)], debug=True)
+
+
+
+
+if __name__ == "__main__":
+   app.run()

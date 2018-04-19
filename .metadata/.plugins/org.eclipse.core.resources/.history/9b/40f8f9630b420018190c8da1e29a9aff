@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>C1 Assignment</title>
+	</head>
+	<h1>Enter Employee Details</h1>
+	<form action='/add' method = 'post'>
+		<table>
+			<thead></thead>
+			<tr>
+				<td>Name</td>
+				<td><input type='text' name='name'/></td>
+			</tr>
+		</table>
+	</form>
+</html>

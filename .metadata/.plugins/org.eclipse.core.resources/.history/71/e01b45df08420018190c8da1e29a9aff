@@ -1,0 +1,17 @@
+import webapp2
+import os
+from google.appengine.ext.webapp import template
+from google.appengine.ext import db
+from pyamf.remoting.gateway.google import webapp
+
+
+class MainPage(webapp2.RequestHandler):
+    
+    
+    def get(self):
+        self.response.headers['Content-Type'] = 'text/plain'
+        self.response.out.write('Hello, webapp World!')
+
+
+
+
